@@ -2,14 +2,17 @@ body {
     min-width: 1100px;
 }
 
+.fix {
+    width: 1100px;
+    margin: 0 auto;
+}
+
 .first-screen_menu {
     background-color: #EEEFF1;
 }
 
 .top-nav {
-    width: 1100px;
-    margin: 0 auto;
-    padding: 80px 0 150px;
+    padding-top: 80px;
 }
 
 .top-nav li {
@@ -30,21 +33,22 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #34547A;
+    text-decoration: none;
 }
 
-.top-nav:hover {
-    text-decoration: underline ;
+.top-nav li a:hover {
+    text-decoration: none;
 }
 
 .footer-rectangel_container {
-    width: 1100px;
-    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 140px;
     background: #EEEFF1;
 }
 .design_and_layout {
     color: #000;
     font-family: 'Roboto';
-    font-weight: 500 bold;
+    font-weight: 500;
     font-size: 48px;
     line-height: 80px;
     margin-bottom: 60px;
@@ -76,9 +80,7 @@ body {
 
 .about_me {
     background: #ffffff;
-    width: 1100px;
-    margin: 0 auto;
-    margin-top: 112px;
+    padding: 112px 0 100px;
 }
 
 .me {
@@ -105,16 +107,10 @@ body {
 
 .text-about_me {
     margin: 0 auto;
-    margin-bottom: 100px;
 }
 
 .container_vector {
     background-color: #34547A;
-}
-
-.numbers {
-    width: 1100px;
-    margin: 0 auto;
 }
 
 .number_item {
@@ -160,8 +156,6 @@ body {
 }
 
 .about_work {
-    width: 1100px;
-    margin: 0 auto;
     padding: 100px 0 56px;
 }
 
@@ -188,11 +182,6 @@ body {
     margin: 0 auto;
 }
 
-.video-youtube {
-    width: 1100px;
-    margin: 0 auto;
-}
-
 .video {
     height: 600px;
     width: 1100px;
@@ -204,8 +193,6 @@ body {
 }
 
 .contacts {
-    width: 1100px;
-    margin: 0 auto;
     padding: 50px;
 }
 
